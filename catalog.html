@@ -4,23 +4,21 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Седона - поиск гостиниц</title>
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="favicon.ico">
   </head>
   <body>
     <div class="wrapper">
       <header class="page-header">
         <nav class="navigation">
+          <a class="main-logo" href="./index.html">
+            <img src="images/logo-sedona.svg" width="139" height="70" alt="Логотип.">
+          </a>
           <ul class="navigation-list">
-            <li class="navigation-item">
-              <a class="main-logo" href="./index.html">
-                <img src="images/logo-sedona.svg" width="139" height="70" alt="Логотип">
-              </a>
-            </li>
             <li class="navigation-item">
               <a class="navigation-item-link navigation-item-current" href="./index.html">Главная</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-item-link" href="#">О седоне</a>
+              <a class="navigation-item-link" href="#about">О Cедоне</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-item-link" href="./catalog.html">Гостиницы</a>
@@ -135,10 +133,10 @@
                             <div class="range">
                               <div class="range-scale">
                                 <div class="range-bar" style="left: 1px; width: 216px">
-                                  <button class="range-toggle toggle-min">
+                                  <button class="range-toggle toggle-min" type="button">
                                     <span class="visually-hidden">Изменить минимальную цену.</span>
                                   </button>
-                                  <button class="range-toggle toggle-max">
+                                  <button class="range-toggle toggle-max" type="button">
                                     <span class="visually-hidden">Изменить максимальную цену.</span>
                                   </button>
                                 </div>
@@ -162,20 +160,20 @@
                   </select>
                   <ul class="sort-buttons">
                     <li class="sort-buttons-item">
-                      <button class="sort-buttons-link button-sort-table sort-button-selected" type="button"><span class="visually-hidden">Показать таблицей</span></button>
+                      <button class="sort-buttons-link button-sort-table sort-button-selected" type="button"><span class="visually-hidden">Показать таблицей.</span></button>
                     </li>
                     <li class="sort-buttons-item">
-                      <button class="sort-buttons-link button-sort-slideshow" type="button"><span class="visually-hidden">Показать слайдшоу</span></button>
+                      <button class="sort-buttons-link button-sort-slideshow" type="button"><span class="visually-hidden">Показать слайдшоу.</span></button>
                     </li>
                     <li class="sort-buttons-item">
-                      <button class="sort-buttons-link button-sort-list" type="button"><span class="visually-hidden">Показать списком</span></button>
+                      <button class="sort-buttons-link button-sort-list" type="button"><span class="visually-hidden">Показать списком.</span></button>
                     </li>
                   </ul>
                 </div>
                 <ul class="accomodation-list">
                     <li class="accomodation-card">
                         <a class="accomodation-card-link" href="#">
-                            <img class="accomodation-card-image" src="images/hotels/amara-hotel.jpg" width="300" height="211" alt="Amara Resort & Spa">
+                            <img class="accomodation-card-image" src="images/hotels/amara-hotel.jpg" width="300" height="211" alt="Amara Resort & Spa.">
                         </a>
                         <b class="accomodation-card-title">Amara Resort & Spa</b>
                         <div class="accomodation-card-content">
@@ -185,13 +183,13 @@
                         <a class="button brown-button accomodation-card-info " href="#">Подробнее</a>
                         <a class="button blue-button accomodation-card-button" href="#">В избранное</a>
                         </div>
-                        <img class="accomodation-card-stars" src="images/icons/4-stars.png" width="140" height="37" alt="Категория 4 звезды">
+                        <img class="accomodation-card-stars" src="images/icons/4-stars.png" width="140" height="37" alt="Категория 4 звезды.">
                         <p class="accomodation-card-rating">Рейтинг: 8,5</p>
                       </div>
                     </li>
                     <li class="accomodation-card">
                         <a class="accomodation-card-link" href="#">
-                            <img class="accomodation-card-image" src="images/hotels/villas-hotel.jpg" width="300" height="211" alt="Villas at Poco Diablo">
+                            <img class="accomodation-card-image" src="images/hotels/villas-hotel.jpg" width="300" height="211" alt="Villas at Poco Diablo.">
                         </a>
                         <b class="accomodation-card-title">Villas at Poco Diablo</b>
                         <div class="accomodation-card-content">
@@ -201,13 +199,13 @@
                             <a class="button brown-button accomodation-card-info" href="#">Подробнее</a>
                             <a class="button green-button accomodation-card-button favorite-added"  href="#">В избранном</a>
                           </div>
-                          <img class="accomodation-card-stars" src="images/icons/4-stars.png" width="140" height="37"alt="Категория 4 звезды">
+                          <img class="accomodation-card-stars" src="images/icons/4-stars.png" width="140" height="37" alt="Категория 4 звезды.">
                           <p class="accomodation-card-rating">Рейтинг: 9,2</p>
                         </div>
                       </li>
                     <li class="accomodation-card">
                         <a class="accomodation-card-link" href="#">
-                          <img class="accomodation-card-image" src="images/hotels/desert-hotel.jpg" width="300" height="211" alt="Desert Quail Inn">
+                          <img class="accomodation-card-image" src="images/hotels/desert-hotel.jpg" width="300" height="211" alt="Desert Quail Inn.">
                         </a>
                         <b class="accomodation-card-title">Desert Quail Inn</b>
                         <div class="accomodation-card-content">
@@ -217,13 +215,13 @@
                             <a class="button brown-button accomodation-card-info" href="#">Подробнее</a>
                             <a class="button blue-button accomodation-card-button" href="#">В избранное</a>
                           </div>
-                          <img class="accomodation-card-stars" src="images/icons/3-stars.png" width="140" height="37" alt="Категория 3 звезды">
+                          <img class="accomodation-card-stars" src="images/icons/3-stars.png" width="140" height="37" alt="Категория 3 звезды.">
                           <p class="accomodation-card-rating">Рейтинг: 6,9</p>
                         </div>
                     </li>
                     <li class="accomodation-card">
                         <a class="accomodation-card-link" href="#">
-                          <img class="accomodation-card-image" src="images/hotels/greentree-hotel.jpg" width="300" height="211" alt="GreenTree Inn">
+                          <img class="accomodation-card-image" src="images/hotels/greentree-hotel.jpg" width="300" height="211" alt="GreenTree Inn.">
                         </a>
                         <b class="accomodation-card-title">GreenTree Inn</b>
                         <div class="accomodation-card-content">
@@ -233,7 +231,7 @@
                         <a class="button brown-button accomodation-card-info" href="#">Подробнее</a>
                         <a class="button blue-button accomodation-card-button" href="#">В Избранное</a>
                         </div>
-                        <img class="accomodation-card-stars" src="images/icons/2-stars.png" width="140" height="37" alt="Категория 2 звезды">
+                        <img class="accomodation-card-stars" src="images/icons/2-stars.png" width="140" height="37" alt="Категория 2 звезды.">
                         <p class="accomodation-card-rating">Рейтинг: 5,0</p>
                         </div>
                     </li>
@@ -283,8 +281,8 @@
                 <h2 class="subscribtion-title">Подписаться на рассылку</h2>
                 <p class="subcribtion-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
                 <form class="subscribtion-form" action="https://echo.htmlacademy.ru/courses" method="get">
-                  <input type="email" id="email-subscribtion" name="email-subscribtion" placeholder="Ваш e-mail">
-                  <button class="button blue-button subscribtion-button" type="submit">Подписаться</button>
+                  <input type="email" id="email-subscribtion" name="email-subscribtion" placeholder="Ваш e-mail" required>
+                  <button class="button blue-button subscribtion-button" type="submit" disabled>Подписаться</button>
                 </form>
             </section>
         </main>
