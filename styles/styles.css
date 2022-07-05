@@ -72,15 +72,28 @@ body {
     background-color: #615048;
 }
 
+.brown-button:disabled {
+    background-color: #E5E5E5;
+}
+
 
 .blue-button:hover,
 .blue-button:focus {
     background-color: #68A2CA;
 }
 
+.blue-button:disabled {
+    background-color: #E5E5E5;
+}
+
+
 .green-button:hover,
 .green-button:focus {
     background-color: #6C9E42;
+}
+
+.green-button:disabled {
+    background-color: #E5E5E5;
 }
 
 .button:active {
@@ -216,7 +229,7 @@ ul.navigation-icons {
     margin-top: 14px;
     font-size: 16px;
     inline-size: 20px;
-    line-height: 37px;
+    line-height: 20px;
     text-align: center;
     box-sizing: border-box;
     justify-content: center;
@@ -273,7 +286,7 @@ ul.navigation-icons {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 620px;
+    max-width: 630px;
 }
 
 .block-description {
@@ -313,20 +326,23 @@ ul.navigation-icons {
     list-style: none;
 }
 
-.advantage-illustation img {
+.advantage-colored img {
     margin: 0;
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
+.advantage-illustation {
+    display: inline-flex;
+}
 
 .advantages-description {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    padding: 0 85px 80px 85px;
+    padding: 0 85px;
     margin: 0;
     max-width: 230px;
     color: #333333;
@@ -338,6 +354,7 @@ ul.navigation-icons {
     color: #FFFFFF;
     margin: 0;
     padding: 0;
+    padding-bottom: 92px;
 }
 
 .advantage-colored-text p {
@@ -430,7 +447,7 @@ ul.navigation-icons {
 .souvenir-image {
     background-image: url(../images/icons/souvenirs-icon.svg);
     width: 64px;
-    height: 76px;
+    height: 75px;
 }
 
 .food-image {
@@ -778,12 +795,28 @@ ul.navigation-icons {
     margin-right: 30px;
 }
 
+.breadcrumbs-link:hover {
+    color:rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link:hover path {
+    fill: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link:active {
+    color:rgba(255, 255, 255, 0.3);
+}
+
+.breadcrumbs-link:active path {
+    fill: rgba(255, 255, 255, 0.3);
+}
+
+
 .breadcrumbs-item {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     position: relative;
-
 }
 
 
